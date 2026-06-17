@@ -1,0 +1,34 @@
+{
+  "friends": [
+    {
+      "id_name": "cf-links",
+      "desc": "Enlaces incluidos en el círculo de amigos",
+      "link_list": [
+      ]
+    },
+    {
+      "id_name": "special-links",
+      "desc": "Otros enlaces especiales",
+      "link_list": [
+        {
+          "name": "Travellings",
+          "intro": "Visita aleatoriamente un blog miembro de Travellings",
+          "link": "https://www.travellings.cn/go.html",
+          "avatar": "https://www.travellings.cn/assets/travelling.png"
+        },
+        {
+          "name": "BlogFinder",
+          "intro": "Agrega blogs personales excelentes, descubre artículos y contenido de calidad",
+          "link": "https://bf.zzxworld.com/s",
+          "avatar": "https://bf.zzxworld.com/images/favicon.png"
+        },
+        {
+          "name": "Círculo de bloggers",
+          "intro": "La comunidad de los bloggers",
+          "link": "https://www.boyouquan.com/",
+          "avatar": "https://www.boyouquan.com/assets/images/sites/logo/logo-small.png"
+        }
+      ]
+    }
+  ]
+}
