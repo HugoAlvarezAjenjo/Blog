@@ -6,7 +6,7 @@ import { unified } from '@astrojs/markdown-remark';
 
 export default defineConfig({
   site: 'https://hugoalvarezajenjo.github.io',
-  base: '/blog',
+  base: '/Blog',
   integrations: [mdx()],
   markdown: {
     processor: unified({
