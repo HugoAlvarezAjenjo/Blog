@@ -10,7 +10,7 @@ export const PAGE_SIZE = 10;
 export const NAV_ITEMS = [
   { label: 'Inicio', href: '/' },
   { label: 'Artículos', href: '/archives' },
-  { label: 'Enlaces', href: '/friends' },
+  { label: 'Enlaces', href: '/enlaces' },
 ];
 
 export const SOCIAL_LINKS = [

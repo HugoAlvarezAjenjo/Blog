@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+interface ProjectLink {
+  name: string;
+  link: string;
+  description: string;
+}
+
+const projects: ProjectLink[] = [
+  {
+    name: 'LinuxExplained',
+    link: 'https://hugoalvarezajenjo.github.io/LinuxExplained/',
+    description: 'Guía explicativa sobre Linux',
+  },
+];
+---
+
+<BaseLayout title="Enlaces">
+  <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-8">
+    <h1 class="text-2xl font-bold mb-2 flex items-center gap-2">
+      <span class="w-1 h-6 bg-primary rounded-full inline-block"></span>
+      Enlaces
+    </h1>
+    <p class="text-sm text-gray-400 dark:text-gray-500 mb-8">
+      Mis proyectos y recursos
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {projects.map((project) => (
+        <a
+          href={project.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="card-hover bg-white dark:bg-[var(--color-card-dark)] rounded-xl shadow-sm p-5 group"
+        >
+          <h2 class="font-semibold group-hover:text-primary transition-colors">
+            {project.name}
+          </h2>
+          <p class="text-sm text-gray-400 dark:text-gray-500 mt-1">
+            {project.description}
+          </p>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
