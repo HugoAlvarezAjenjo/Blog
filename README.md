@@ -272,6 +272,7 @@ bun preview
 ```
 
 Asegúrate de que existan los siguientes archivos:
+
 - `dist/index.html`
 - `dist/rss.xml`
 - `dist/search-index.json`
@@ -300,4 +301,4 @@ astro-theme-sify/
 
 ## License
 
-MIT
+MIT License
